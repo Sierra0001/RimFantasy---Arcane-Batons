@@ -101,7 +101,7 @@
       </li>
       <li Class="RimFantasy.CompProperties_Aura_Joy">
         <auraRadius>2</auraRadius>
-        <auraStrength>0.011</auraStrength>
+        <auraStrength>0.021</auraStrength>
         <locationMode>Both</locationMode>
         <minJoy>0</minJoy>
         <maxJoy>0.8</maxJoy>
