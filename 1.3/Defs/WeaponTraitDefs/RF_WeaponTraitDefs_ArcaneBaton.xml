@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_BatonStun</defName>
+		<label>energised</label>
+		<description>The weapon is capable of releasing a quick blast of energy that causes a brief stunning effect.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_Stun">
+				<effectChance>0.25</effectChance>
+				<stunDuration>10~15</stunDuration>
+				<baseDamageValue>5</baseDamageValue>
+			</li>
+		</weaponEffects>
+		<commonality>1</commonality>
+		<marketValueOffset>200</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+</Defs>
