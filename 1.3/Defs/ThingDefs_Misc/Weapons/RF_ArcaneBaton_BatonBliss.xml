@@ -101,7 +101,7 @@
       </li>
       <li Class="RimFantasy.CompProperties_Aura_Mood">
         <auraRadius>2</auraRadius>
-        <auraStrength>28</auraStrength>
+        <auraStrength>8</auraStrength>
         <locationMode>Both</locationMode>
         <minMood>0</minMood>
         <maxMood>0.8</maxMood>

@@ -101,7 +101,7 @@
       </li>
       <li Class="RimFantasy.CompProperties_Aura_Food">
         <auraRadius>2</auraRadius>
-        <auraStrength>0.021</auraStrength>
+        <auraStrength>0.001</auraStrength>
         <locationMode>Both</locationMode>
         <minFood>0</minFood>
         <maxFood>0.8</maxFood>

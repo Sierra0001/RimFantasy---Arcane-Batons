@@ -12,7 +12,7 @@
       <li>RF_ArcaneCrafting</li>
     </prerequisites>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>0.75</researchViewY>
+    <researchViewY>1.50</researchViewY>
   </ResearchProjectDef>
 
 </Defs>
