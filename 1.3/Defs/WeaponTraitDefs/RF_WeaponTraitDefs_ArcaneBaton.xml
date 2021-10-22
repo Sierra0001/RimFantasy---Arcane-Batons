@@ -9,7 +9,7 @@
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Stun">
 				<effectChance>0.15</effectChance>
-				<stunDuration>10~15</stunDuration>
+				<stunDuration>30~60</stunDuration>
 				<baseDamageValue>3</baseDamageValue>
 			</li>
 		</weaponEffects>

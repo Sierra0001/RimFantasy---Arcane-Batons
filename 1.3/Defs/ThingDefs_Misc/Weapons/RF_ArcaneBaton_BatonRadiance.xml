@@ -39,7 +39,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>7</power>
+        <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -48,7 +48,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>13</power>
+        <power>15</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
