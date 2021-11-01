@@ -24,7 +24,7 @@ Balance feedbacks are welcomed, please provide context when doing so.
 ### Links
 
 - [Current Version](https://github.com/Sierra0001/RimFantasy---Arcane-Batons/releases/tag/v1.0)
-- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890)
+- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2634323159)
 - [GitHub](https://github.com/Sierra0001/RimFantasy---Arcane-Batons)
 
 ### Credits
