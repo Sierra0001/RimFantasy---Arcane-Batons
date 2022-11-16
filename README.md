@@ -34,5 +34,4 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Latest Changes
 
-- [RimWorld 1.3] RimWorld 1.3 Ready. (v1.0)
-- [Release] Initial release. (v1.0)
+- [RimWorld 1.4] RimWorld 1.4 Ready.
