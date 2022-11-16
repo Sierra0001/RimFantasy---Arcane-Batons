@@ -23,13 +23,14 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimFantasy---Arcane-Batons/releases/tag/v1.0)
+- [Current Version](https://github.com/Sierra0001/RimFantasy---Arcane-Batons/releases/tag/v1.1)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2634323159)
 - [GitHub](https://github.com/Sierra0001/RimFantasy---Arcane-Batons)
 
 ### Credits
 
-SirLalaPyon for his amazing, high-quality vanilla styled art.
+- SirLalaPyon for his amazing, high-quality vanilla styled art.
+- Mascot inspired and based on Geneforge by Spiderweb Software (Go play the series, it's great).
 
 ### Latest Changes
 

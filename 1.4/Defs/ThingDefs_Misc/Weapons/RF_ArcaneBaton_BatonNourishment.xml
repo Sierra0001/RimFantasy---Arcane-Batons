@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="RF_BaseWeapon_ArcaneBaton">
+    <defName>RF_ArcaneBaton_BatonNourishment</defName>
+    <label>baton of nourishment</label>
+    <description>A carefully crafted baton, designed for utility purposes in mind but is also handy in survival situations where no alternatives are available. Embedded gemstones are charged and could potentially stun targets. Explodes upon imminent destruction.\n\nThis baton appears to radiate an aura that partially suppresses hunger.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/RF_BatonNourishment/RF_BatonNourishment</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <WorkToMake>16500</WorkToMake>
+      <Mass>1.25</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>RF_ArcaneBatons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <costList>
+      <RF_Citrine>14</RF_Citrine>
+    </costList>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>60</wickTicks>
+        <explosiveRadius>1</explosiveRadius>
+        <explosiveDamageType>RF_Flame_SmallSquareRF_Citrine</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+        <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+        <postExplosionSpawnThingDef>RF_RubbleShardsRF_Citrine</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      </li>
+      <li Class="RimFantasy.CompProperties_GlowerStuffable">
+        <glowRadius>1</glowRadius>
+        <glowColor>(201,193,34)</glowColor>
+        <glowWhileOnGround>true</glowWhileOnGround>
+        <glowWhileStockpiled>true</glowWhileStockpiled>
+        <glowWhileEquipped>true</glowWhileEquipped>
+        <glowRadiusEquipped>1</glowRadiusEquipped>
+        <glowWhileDrawn>true</glowWhileDrawn>
+        <glowRadiusDrawn>2</glowRadiusDrawn>
+      </li>
+      <li Class="RimFantasy.CompProperties_WornWeapon">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Item/Equipment/WeaponMelee/RF_BatonNourishment/RF_BatonNourishment_Blank</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Item/Equipment/WeaponMelee/RF_BatonNourishment/RF_BatonNourishment</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0.10,0.15,0.1)</position> <!-- X,Depth,Height -->
+          <angle>110</angle> <!-- 110 for RS -->
+        </northOffset>
+        <southOffset> <!-- Facing South -->
+          <position>(-0.10,-0.15,0.1)</position> <!-- X,Depth,Height -->
+          <angle>70</angle> <!-- 70 for RS -->
+        </southOffset>
+        <eastOffset>
+          <position>(-0.30,0,0)</position>
+          <angle>90</angle> <!-- 90 by default -->
+        </eastOffset>
+        <westOffset>
+          <position>(0.30,0.1,0)</position>
+          <angle>-90</angle> <!-- 90 by default-->
+        </westOffset>
+      </li>
+      <li Class="RimFantasy.CompProperties_Aura_Food">
+        <auraRadius>2</auraRadius>
+        <auraStrength>0.001</auraStrength>
+        <locationMode>Both</locationMode>
+        <minFood>0</minFood>
+        <maxFood>0.8</maxFood>
+        <workThroughWalls>false</workThroughWalls>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

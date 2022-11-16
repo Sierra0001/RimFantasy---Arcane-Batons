@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>RF_ArcaneBatons</defName>
+    <label>arcane batons</label>
+    <tab>RF_RimFantasy</tab>
+    <description>Craft utility batons with magic infused gemstones.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>RF_ArcaneCrafting</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
